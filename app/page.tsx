@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import AnimatedStatValue from "./components/animated-stat-value";
 import Link from "next/link";
-import profile from "./assets/prf.png";
+import profile from "./assets/pf.png";
 export default function Home() {
   const expertise = [
     "Next.js",
