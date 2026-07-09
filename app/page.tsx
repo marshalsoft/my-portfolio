@@ -99,6 +99,25 @@ export default function Home() {
 
   return (
     <main className="page-shell min-h-screen">
+      <div className="floral-layer" aria-hidden="true">
+        <div className="floral-orbit float-flower absolute -left-24 top-24 h-[28rem] w-[28rem]" />
+        <div className="floral-orbit float-flower-delayed absolute right-[-8rem] top-[42rem] h-[24rem] w-[24rem]" />
+        <div className="floral-orbit float-flower absolute bottom-[18rem] left-[22%] h-[18rem] w-[18rem]" />
+
+        <div className="floral-stem float-flower absolute left-[8%] top-[9rem] h-[22rem] rotate-[-18deg]" />
+        <div className="floral-stem float-flower-delayed absolute right-[12%] top-[34rem] h-[20rem] rotate-[16deg]" />
+        <div className="floral-stem float-flower absolute left-[72%] top-[78rem] h-[18rem] rotate-[-12deg]" />
+
+        <div className="floral-bloom float-flower absolute left-[-1.5rem] top-[8rem] h-40 w-40" />
+        <div className="floral-bloom floral-bloom-cool float-flower-delayed absolute left-[18%] top-[32rem] h-28 w-28" />
+        <div className="floral-bloom float-flower-delayed absolute right-[5%] top-[28rem] h-52 w-52" />
+        <div className="floral-bloom floral-bloom-cool float-flower absolute right-[18%] top-[72rem] h-32 w-32" />
+        <div className="floral-bloom float-flower absolute left-[10%] bottom-[14rem] h-44 w-44" />
+
+        <div className="floral-petal float-flower absolute left-[12%] top-[18rem] rotate-[18deg]" />
+        <div className="floral-petal float-flower-delayed absolute right-[14%] top-[17rem] rotate-[-22deg]" />
+        <div className="floral-petal float-flower absolute left-[68%] top-[64rem] rotate-[36deg]" />
+      </div>
       <div className="noise-overlay" />
 
       <section className="relative mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 pb-20 pt-6 md:px-10 lg:px-12">
