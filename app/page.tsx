@@ -129,8 +129,8 @@ export default function Home() {
           My Portfolio
           </a>
           <nav className="hidden items-center gap-6 text-sm text-white/70 md:flex">
-            <a href="#work" className="transition hover:text-white">
-              Work
+            <a href="#projects" className="transition hover:text-white">
+              Projects
             </a>
             <a href="#process" className="transition hover:text-white">
               Process
@@ -163,7 +163,7 @@ export default function Home() {
               style={{ animationDelay: "220ms" }}
             >
               <a
-                href="#work"
+                href="#projects"
                 className="inline-flex items-center justify-center rounded-full bg-orange-400 px-6 py-3 text-sm font-medium text-black transition hover:-translate-y-0.5 hover:bg-orange-600"
               >
                 View Projects
@@ -216,12 +216,12 @@ export default function Home() {
       </section>
 
       <section
-        id="work"
+        id="projects"
         className="relative mx-auto w-full max-w-7xl px-6 py-20 md:px-10 lg:px-12"
       >
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div className="space-y-4">
-            <span className="section-label">Selected Work</span>
+            <span className="section-label">Selected Projects</span>
             <h2 className="headline-display max-w-3xl text-4xl font-semibold tracking-[-0.05em] text-white md:text-5xl">
               Full-stack products shaped around outcomes, not just features.
             </h2>
