@@ -246,11 +246,11 @@ export default function Home() {
                   alt={project.title}
                   className="h-[60px] w-[60px] rounded-full"
                 />
-              <h3 className="headline-display mt-8 text-3xl font-semibold text-white">
+              <h3 className="headline-display text-3xl font-semibold text-white">
                 {project.title}
               </h3>
               </div>
-              <p className="mt-4 text-sm leading-7 text-slate-300">
+              <p className="mt-4 text-sm leading-7 text-slate-300 h-[130px]">
                 {project.description}
               </p>
               <Link href={project.link} className="mt-4 text-sm leading-7 text-orange-500">
