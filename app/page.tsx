@@ -149,9 +149,9 @@ export default function Home() {
             <div className="fade-up space-y-6" style={{ animationDelay: "100ms" }}>
               <span className="section-label">Full-Stack Developer</span>
               <h1 className="headline-display max-w-4xl text-md leading-[0.92] font-semibold tracking-[-0.06em] text-white sm:text-6xl lg:text-8xl">
-                Hello! I’m<br/>
+                <span className="lg:text-[60px] text-[30px]">Hello! I’m</span><br/>
                 {" "}
-                <span className="accent-italic text-orange-300">Marshall Ekene</span>
+                <span className="accent-italic text-orange-300 lg:text-8xl text-[30px]">Marshall Ekene</span>
                 {" "}
               </h1>
               <p className="max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
