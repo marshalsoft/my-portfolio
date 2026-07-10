@@ -19,7 +19,7 @@ const accentFont = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Marshall Ekene | Full-Stack Developer",
+  title: "Marshall Ekene | Senior Full-Stack Developer",
   description:
     "Animated Next.js portfolio for a full-stack developer focused on modern frontend systems, APIs, and scalable product experiences.",
 };
